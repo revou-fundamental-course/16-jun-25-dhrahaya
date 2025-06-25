@@ -97,3 +97,17 @@ footer {
     font-size: 1.2rem;
     color: #020252;
 }
+
+h6 {
+    color: #020252;
+    height: 50px;
+    width: 450px;
+    align-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+   main {
+    flex-direction: column;
+   }
+}   
