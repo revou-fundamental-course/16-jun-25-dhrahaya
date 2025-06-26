@@ -4,12 +4,26 @@ body {
     font-size: 1.3rem;
     background-color: #ffd6e5;;
     color: #020252;
-    margin: 50px;
-    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 header {
     text-align: center;
+}
+
+header, main {
+    flex: 0 0 auto;
 }
 
 .bg-pink {
@@ -97,6 +111,7 @@ button:hover {
 }
 
 footer {
+    margin-top: auto;
     text-align: center;
     color: rosybrown;
     font-size: 0.7rem;
@@ -110,13 +125,6 @@ footer {
     text-align: left;
     font-size: 1.2rem;
     color: #020252;
-}
-
-h6 {
-    color: #020252;
-    height: 50px;
-    width: 450px;
-    align-content: center;
 }
 
 /* Responsive Design */
