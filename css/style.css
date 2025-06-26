@@ -4,7 +4,8 @@ body {
     font-size: 1.3rem;
     background-color: #ffd6e5;;
     color: #020252;
-
+    margin: 50px;
+    padding: 20px;
 }
 
 header {
@@ -14,16 +15,25 @@ header {
 .bg-pink {
     background-color: #F26d9e;
     color: #020252;
+    width: 215px;
 }
 
 .bg-orange {
     background-color: #f27507;
     color: #020252;
+    width: 215px;
+}
+
+.bg-yellow {
+    background-color: #ffcb2e;
+    color: #020252;
+    width: 215px;
 }
 
 nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 nav a {
@@ -34,6 +44,11 @@ nav a {
     color: black;
 }
 
+nav a:hover {
+    background-color: #020252;
+    color: white;
+}
+
 main {
     display: flex;
 }
@@ -42,7 +57,7 @@ main>section {
     flex: 1;
 }
 
-.formula-img {
+.image {
     height: 293px;
     width: 239px;
     display: block;
@@ -50,16 +65,9 @@ main>section {
     margin-right: auto;
 }
 
-.pe {
+/* Text rumus */
+.equation {
     text-align: left;
-}
-
-.img-luas {
-    background-image: url(https://www.advernesia.com/wp-content/uploads/2018/10/Segitiga-sama-kaki.png);
-}
-
-.img-keliling {
-    background-image: url(https://www.advernesia.com/wp-content/uploads/2018/10/Segitiga-sama-kaki.png);
 }
 
 /* Form Style */
@@ -83,9 +91,15 @@ button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+button:hover {
+    background-color: #f27507;
+    color: white;
+}
+
 footer {
     text-align: center;
     color: rosybrown;
+    font-size: 0.7rem;
 }
 
 .thema {
