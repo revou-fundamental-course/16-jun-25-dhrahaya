@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics Web</title>
+    
+    <!--CSS Internal-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation  -->
+        <nav>
+            <a class="bg-pink" href="luas.html">Keliling Segitiga</a>
+            <br>
+            <a class="bg-orange" href="index.html">Luas Segitiga</a>
+            <br>
+            <a class="bg-yellow" href="keliling.html">Beranda</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Luas -->
+        <section id="luas-segitiga">
+            <header>
+                <h2>Luas Segitiga</h2>
+            </header>
+
+            <!-- Konten Luas -->
+            <img class="image" src="segitiga.png" alt="Gambar Segitiga">
+
+            <p class="equation">Rumus Luas Segitiga:</p>
+            <h4><strong>L = ½ x Alas x Tinggi</strong></h4>
+            <p class="equation">Keterangan :<br>
+               L = Luas Segitiga<br>
+               Alas = Alas Segitiga<br>
+               Tinggi = Tinggi Segitiga</p>
+
+            <!-- Form Luas -->
+            <form>
+                <header>
+                    <h2>Hitung Luas Segitiga</h2>
+                </header>
+
+                <div>
+                    <label for="alas">Alas:</label><br>
+                    <input type="number" id="alas" placeholder="Masukkan Alas Segitiga">
+                </div>
+
+                <div>
+                    <label for="tinggi">Tinggi:</label><br>
+                    <input type="number" id="tinggi" placeholder="Masukkan Tinggi Segitiga">
+                </div>
+                <br>
+                <div id="hasil-luas"></div>
+
+                <!--Button-->
+                <div>
+                     <button type="button" onclick="calculateluas()">Hitung</button>
+                     <button type="button" onclick="resetluas()">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>    
+
+    <!-- Footer Content -->
+    <footer>
+        <p>&copy; 2025 Alya Nuha Shabira Faidh. All rights reserved.</p>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

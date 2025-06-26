@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics Web</title>
+    
+    <!--CSS Internal-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation  -->
+        <nav>
+            <a class="bg-pink" href="index.html"> Beranda</a>
+            <br>
+            <a class="bg-orange" href="luas.html">Keliling Segitiga</a>
+            <br>
+            <a class="bg-yellow" href="keliling.html">Luas Segitiga</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Keliling -->
+        <section id="keliling-segitiga">
+            <header>
+                <h2>Keliling Segitiga</h2>
+            </header>
+
+            <!-- Konten Keliling -->
+            <img class="image" src="segitiga.png" alt="Gambar Segitiga">
+
+            <p class="equation">Rumus Keliling Segitiga:</p>
+            <h4><strong>K = Sisi A + Sisi B + Sisi C</strong></h4>
+            <p class="equation">Keterangan :<br>
+               K = Keliling Segitiga<br>
+               Sisi A = Sisi Pertama Segitiga<br>
+               Sisi B = Sisi Kedua Segitiga<br>
+               Sisi C = Sisi Ketiga Segitiga</p>
+
+            <!-- Form Keliling -->
+            <form>
+                <header>
+                    <h2>Hitung Keliling Segitiga</h2>
+                </header>
+
+                <div>
+                    <label for="sisi-a">Sisi A:</label><br>
+                    <input type="number" id="sisi-a" placeholder="Masukkan Sisi A">
+                </div>
+
+                <div>
+                    <label for="sisi-b">Sisi B:</label><br>
+                    <input type="number" id="sisi-b" placeholder="Masukkan Sisi B">
+                </div>
+
+                <div>
+                    <label for="sisi-c">Sisi C:</label><br>
+                    <input type="number" id="sisi-c" placeholder="Masukkan Sisi C">
+                </div>
+                <br>
+                <div id="hasil-keliling"></div>
+
+                <!--Button-->
+                <div>
+                    <button type="button" onclick="calculatekeliling()">Hitung</button>
+                    <button type="button" onclick="resetkeliling()">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Content -->
+    <footer>
+        <p>&copy; 2025 Alya Nuha Shabira Faidh. All rights reserved.</p>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
