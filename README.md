@@ -23,8 +23,9 @@ Thematic bertujuan menjadi media bantu belajar dan alat hitung yang praktis, dap
 
 ##Cara Penggunaan
 1. Buka link https://revou-fundamental-course.github.io/16-jun-25-dhrahaya/ dalam keadaan online (memiliki jaringan internet)
-2. Klik "Oke" pada notifikasi
-3. Scroll ke bawah
-4. Kemudian klik Alas dan Tinggi jika ingin mencari Luas. Mencari keliling klik Sisi A, Sisi B dan Sisi C.
-5. Klik hitung pada masing - masing button.
-6. Jika ingin menghitung lagi, klik luas segitiga atau keliling segitiga pada button paling  atas untuk mereset.
+2. Klik "Luas Segitiga" atau "Keliling Segitiga" pada beranda.
+3. Laman akan menuju pada button yang di pilih.
+4. Jika memilih "Luas Segitiga" input nilai Alas dan Tinggi, kemudian klik "Hitung". Jika ingin menghitung lagi klik "Restart" berlaku juga dengan "Keliling Segitiga".
+5. Bisa memilih " Beranda ", " Luas Segitiga ", dan " Keliling Segitiga " pada laman terakhir.
+
+<strong>SELAMAT MENCOBA</strong>
